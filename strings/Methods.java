@@ -162,6 +162,28 @@ public class Methods {
         // split(String regex) splits the string around matches of the given regular
         // expression
 
+
+        // ex 1 - replace all
+        String str14 = "My phone number is 123-456-7890.";
+        
+        // Replace all digits with '*'
+        String replaced = str14.replaceAll("[0-9]", "*");
+        
+        System.out.println("Original String: " + str);
+        System.out.println("Replaced String: " + replaced);  // Output: My phone number is ***-***-****.
+
+        // ex2 - replace all
+        String str15 = "This is a test string.\nIt has multiple lines and    spaces.";
+        
+        // Replace all whitespace characters with '_'
+        String replaced1 = str15.replaceAll("\\s+", "_");
+        
+        System.out.println("Original String: ");
+        System.out.println(str);
+        System.out.println("\nReplaced String: " + replaced);
+
+
+        // ex of split
         String str13 = "a,b,c";
         String[] arr = str13.split(",");
         System.out.println(Arrays.toString(arr));
