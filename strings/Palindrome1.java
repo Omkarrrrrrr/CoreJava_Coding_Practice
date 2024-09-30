@@ -1,4 +1,4 @@
-public class PalindromeString {
+public class Palindrome1 {
     // Method to check if a string is palindrome using StringBuilder
     public static boolean ispalindrome(String str) {
         String reversed = new StringBuilder(str).reverse().toString(); // Reverse the string

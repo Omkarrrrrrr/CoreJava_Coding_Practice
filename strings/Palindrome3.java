@@ -1,4 +1,4 @@
-public class PalindromeTwoPointers {
+public class Palindrome3 {
 
     public static boolean ispalindrome(String str){
         int start = 0;
